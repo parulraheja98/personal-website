@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+################################
+#   Setup frontend container
+################################
+  frontend:
+    build: ../static-website
+    expose:
+      - 4000
+    ports:
+      - 4000:3000
+    volumes:
+      - ../static-website/src:/usr/src/app/src
+      - ../static-website/public:/usr/src/app/public 
