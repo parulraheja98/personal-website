@@ -14,19 +14,20 @@ class App extends Component {
             <Nav.Link href="#contact">Contact </Nav.Link>
           </Nav>
         </Navbar>
-
-        <img
-          src="./personalimg.jpg"
-          style={{
-            height: "300px",
-            width:"300px",
-            display:'block',
-            margin:'0px auto',
-            transform:"rotate(90deg)",
-            marginTop:'100px'
-          }}
-          id="headerImage"
-        />
+        <div style={{height:'20%'}}>
+          <img
+            src="./personalimg.jpg"
+            style={{
+              height: "300px",
+              width:"300px",
+              display:'block',
+              margin:'0px auto',
+              transform:"rotate(90deg)",
+              marginTop:'100px'
+            }}
+            id="headerImage"
+          />
+          </div>
         <br />
         <div id="header">
           <h1 style={{ textAlign: "center" }}>
