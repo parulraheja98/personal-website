@@ -8,16 +8,7 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -32,15 +23,30 @@
   }
 }
 #headerImage {
-  margin-top:100px;
+  
+}
+
+.socialMedia {
+  justify-content: left !important;
+  font-size:30px;
 }
 
 #header {
-  margin-top:50px !important;
+  margin-top:2% !important;
 }
 
 .list-group-item.list-group-item-info{
   color:black !important;
+}
+
+.headerContent {
+  background-color:aquamarine;
+  padding:20px;
+  border-radius:20px;
+}
+
+.uniTitle {
+  font-size:25px;
 }
 
   @media (max-width: 767px) {
