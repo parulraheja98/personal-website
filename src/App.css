@@ -60,3 +60,21 @@
         transform: rotate(360deg) !important;   
         }
     }
+
+.description-edit {
+float:left;
+width:500px;
+margin-left:10%;
+}
+
+.image-info {
+  float:left;
+  margin-left:13%;
+  font-size:14px;
+  color:grey;
+}
+
+.content-description {
+  width: 80%;
+  margin: 0px auto;
+}
