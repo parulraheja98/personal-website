@@ -18,11 +18,11 @@ class Home extends Component {
 
 
   handleChatApp() {
-
+    this.props.history.push('/chatapp');
   }
 
   handleExpenseApp() {
-
+    this.props.history.push('/expenseshare');
   }
 
   handleHaircutApp() {
@@ -31,7 +31,7 @@ class Home extends Component {
   }
 
   handleShoppingApp() {
-
+    this.props.history.push('/shoppingcart');
   }
 
 
@@ -73,7 +73,7 @@ class Home extends Component {
         <div className='main-header' style={{overflow:'hidden',backgroundColor:'antiquewhite'}}>
           <div style={{height:'20%',marginTop:'5%'}}>
             <div className='description-edit content-main' style={{}}>
-              <h1> About Me </h1>
+              <h1> Parul Raheja </h1>
               <div> 
                 I am a technology entusiast and full stack developer. <br />
                 I am always open in learning new technologies <br /> and believe in geting shit done. <br />
@@ -103,6 +103,7 @@ class Home extends Component {
             </ListGroup.Item>
 
             <ListGroup.Item>
+            <div className='description-edit'>
             <img
               src="./salonAppointment.PNG"
               style={{
@@ -112,9 +113,19 @@ class Home extends Component {
                 borderRadius:'30%',
 
               }}
-              className='description-edit'
+              onClick={this.handleHaircutApp}
               id="headerImage"
             />
+            <br />
+            
+            <div>
+            <div className='image-info' style={{fontSize:'16px !important'}}> 
+              <Button onClick={this.handleHaircutApp}> Salon Appointment </Button> <br />
+              Schedules Haircut<br />  Appointment  for customers  </div>
+            </div>
+            </div>
+
+            <div className='description-edit'>
             <img
               src="./expenseSharing.PNG"
               style={{
@@ -123,25 +134,23 @@ class Home extends Component {
                 display:'block',
                 borderRadius:'30%'
               }}
-              className='description-edit'
+              onClick={this.handleExpenseApp}
               id="headerImage"
             />
-
-
-
-            </ListGroup.Item>
-
-            <ListGroup.Item>
-              <div className='image-info' style={{fontSize:'16px !important'}}> 
-              <Button onClick={this.handleHaircutApp}> Salon Appointment </Button> <br />
-              Schedules Haircut<br />  Appointment  for customers  </div>
-              <div className='image-info'> 
+            <br />
+            <div className='image-info'> 
               <Button onClick={this.handleExpenseApp}> Expense Sharing </Button> <br />
               Share Expenses Among Individuals </div>
+            
+            </div>
+
+
             </ListGroup.Item>
+
             
             <ListGroup.Item>
-
+            
+            <div className='description-edit'>
             <img
               src="./shoppingCart.PNG"
               style={{
@@ -150,10 +159,17 @@ class Home extends Component {
                 display:'block',
                 borderRadius:'30%'
               }}
-              className='description-edit'
+              onClick={this.handleShoppingApp}
               id="headerImage"
             />
+            <br />
+            <div className='image-info' style={{fontSize:'16px !important'}}> 
+              <Button onClick={this.handleShoppingApp}> Shopping Cart </Button> <br />
+              Shopping Cart Application  
+            </div>
 
+            </div>
+            <div className='description-edit'>
             <img
               src="./chatApp.PNG"
               style={{
@@ -162,65 +178,19 @@ class Home extends Component {
                 display:'block',
                 borderRadius:'30%'
               }}
-              className='description-edit'
+              onClick={this.handleChatApp}
               id="headerImage"
             />
-
-            </ListGroup.Item>
-            <ListGroup.Item>
-              <div className='image-info' style={{fontSize:'16px !important'}}> 
-              <Button onClick={this.handleShoppingApp}> Shopping Cart </Button> <br />
-              Shopping Cart Application  </div>
-              <div className='image-info'> 
+            <br />
+            <div className='image-info'> 
               <Button onClick={this.handleChatApp}> Chat Application </Button> <br />
-              Live Chat with Users </div>
+              Live Chat with Users 
+            </div>
+            </div>
+
             </ListGroup.Item>
+        
             
-            <ListGroup.Item>
-              <h3>
-                {" "}
-                Developed a Common Chat Application for chatting among users{" "}
-              </h3>
-              <div>
-              Technologies used :- HTML , CSS , JS , Laravel, SQL <br />
-              <a href='https://github.com/parulraheja98/ChatProject'> Github URL </a>
-              </div>
-              <br />
-            </ListGroup.Item>
-
-
-            <ListGroup.Item>
-              <h3>
-                {" "}
-                Developed an Online Shopping Cart {" "}
-              </h3>
-              <div>
-              Technologies Used :-  HTML , CSS , ReactJS,Express JS,MongoDB <br />
-              <a href='https://github.com/parulraheja98/shopping-cart-express-react'> Github URL </a>
-              </div>
-            </ListGroup.Item>
-
-            <ListGroup.Item>
-              <h3> Developed a Household Expense Sharing App </h3>
-              <div>
-                Technologies Used :- HTML , CSS , ReactJS,Express JS,MongoDB <br />
-                <a href='https://github.com/parulraheja98/household-share-expense'> Github URL </a>
-              </div>
-            </ListGroup.Item>
-            <ListGroup.Item>
-              <h3> Developed a Salon Appointment Scheduling App </h3>
-              <div>
-                Technologies Used :- ReactJS,Express JS,MongoDB <br />
-                <a href='https://github.com/parulraheja98/salon-appointment-app'> Github URL </a>
-                <YouTube
-                videoId="YeFpcJwyrr4"
-                opts={opts}
-                onReady={this._onReady}
-                />
-              </div>
-            </ListGroup.Item>
-          </ListGroup>
-
           <ListGroup className='navBar'>
             <ListGroup.Item >
               <div id="education">
@@ -245,13 +215,15 @@ class Home extends Component {
               <div id="skills">
                 <h1 className='headerContent'> Skills </h1>
                 <h3>Programming Languages: </h3> 
-                <div>Java, Node JS , C , C++ , PHP <br /> </div>
+                <div>Java, Node JS , C , C++ , PHP, Python<br /> </div>
                 <h3 className='skills-header'> Web/Scripting:</h3>
-                <div>  HTML, CSS, JavaScript,JQuery  </div>
+                <div>  HTML , CSS , JavaScript , JQuery  </div>
                 <h3 className='skills-header'> Web/Frameworks:</h3>
-                <div> Express.js, Meteor.js , Laravel  </div>
+                <div> Express.js , Meteor.js , Laravel , React JS  </div>
                 <h3 className='skills-header'> Databases:</h3>
                 <div> MongoDB , SQL Server</div>
+                <h3 className='skills-header'> Cloud Platform:</h3>
+                <div> Amazon Web Services , Google Kubernetes Engine</div>
               </div>
             </ListGroup.Item>
 
@@ -269,6 +241,7 @@ class Home extends Component {
             </ListGroup.Item>
           </ListGroup>
           
+        </ListGroup>
         </div>
       </div>
     );

@@ -34,10 +34,12 @@ render() {
                     src="./chatApp.PNG"
                     style={{
                         height: "300px",
-                        width:'800px',
+                        width:'400px',
+                        margin:'0px auto',
+                        display:'block'
 
                     }}
-                    className='description-edit'
+                    
                     id="headerImage"
                     />
                 </ListGroup.Item>
@@ -54,11 +56,7 @@ render() {
 
                 </ListGroup.Item>
                 <ListGroup.Item>
-                    <YouTube
-                            videoId=""
-                            opts={opts}
-                            onReady={this._onReady}
-                    />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MKYupdlZzpU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </ListGroup.Item>
             </ListGroup>
             <ListGroup>
@@ -74,6 +72,7 @@ render() {
                 </ListGroup.Item>
             </ListGroup>
             <ListGroup>
+                <ListGroup.Item> Technologies Used :- HTML,CSS,JS,Laravel,MySQL </ListGroup.Item>
                 <ListGroup.Item> <a href='https://github.com/parulraheja98/ChatProject'> Github URL </a> </ListGroup.Item>
             </ListGroup>
             </div>

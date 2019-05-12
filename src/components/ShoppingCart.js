@@ -34,10 +34,11 @@ render() {
                     src="./shoppingCart.PNG"
                     style={{
                         height: "300px",
-                        width:'800px',
+                        width:'400px',
+                        margin:'0px auto',
+                        display:'block'
 
                     }}
-                    className='description-edit'
                     id="headerImage"
                     />
                 </ListGroup.Item>
@@ -53,11 +54,7 @@ render() {
 
                 </ListGroup.Item>
                 <ListGroup.Item>
-                    <YouTube
-                            videoId="pe3aXgGSTJc"
-                            opts={opts}
-                            onReady={this._onReady}
-                    />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pe3aXgGSTJc?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </ListGroup.Item>
             </ListGroup>
             <ListGroup>
@@ -73,6 +70,7 @@ render() {
                 </ListGroup.Item>
             </ListGroup>
             <ListGroup>
+                <ListGroup.Item>   Technologies Used :- ReactJS,Express JS,MongoDB  </ListGroup.Item>
                 <ListGroup.Item> <a href='https://github.com/parulraheja98/shopping-cart-express-react'> Github URL </a> </ListGroup.Item>
             </ListGroup>
             </div>
