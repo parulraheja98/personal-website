@@ -16,6 +16,10 @@ _onReady(event) {
     event.target.pauseVideo();
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
 render() {
     const opts = {
         height: '390',
@@ -33,8 +37,8 @@ render() {
                     <img
                     src="./chatApp.PNG"
                     style={{
-                        height: "300px",
-                        width:'400px',
+                        height: '100%',
+                        width:'35%',
                         margin:'0px auto',
                         display:'block'
 
@@ -56,7 +60,7 @@ render() {
 
                 </ListGroup.Item>
                 <ListGroup.Item>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/MKYupdlZzpU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="50%" height="315px" src="https://www.youtube.com/embed/MKYupdlZzpU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </ListGroup.Item>
             </ListGroup>
             <ListGroup>
