@@ -69,11 +69,16 @@ render() {
                 </ListGroup.Item>
                 <ListGroup.Item>
                     The application is intended for users who want to live chat with each other in Real Time  <br />
-                    Admin have access to all the messages posted  <br />
-                    User can view other people message and update their own messages <br />
-                    Admin can give read or write permission to the users 
-
                 </ListGroup.Item>
+		<ListGroup.Item>   
+                    Admin have access to all the messages posted  <br />
+		</ListGroup.Item>
+		<ListGroup.Item>
+                    User can view other people message and update their own messages <br />
+		</ListGroup.Item>
+		<ListGroup.Item>
+                    Admin can give read or write permission to the users 
+		</ListGroup.Item>
             </ListGroup>
             <ListGroup>
                 <ListGroup.Item> Technologies Used :- HTML,CSS,JS,Laravel,MySQL </ListGroup.Item>

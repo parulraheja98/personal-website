@@ -66,10 +66,15 @@ render() {
                 </ListGroup.Item>
                 <ListGroup.Item>
                     The application is intended for users who are interacting in ecommerce stores  <br />
+		</ListGroup.Item>
+		<ListGroup.Item>
                     Users can add products to the cart and checkout  <br />
-                    Users can create their own custom products  <br />
-                    Users are notified when the product is running out of inventory
-
+                </ListGroup.Item>
+		<ListGroup.Item>   
+		    Users can create their own custom products  <br />
+                </ListGroup.Item>
+		<ListGroup.Item>    
+		    Users are notified when the product is running out of inventory
                 </ListGroup.Item>
             </ListGroup>
             <ListGroup>

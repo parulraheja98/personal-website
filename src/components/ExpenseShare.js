@@ -68,8 +68,12 @@ render() {
                 </ListGroup.Item>
                 <ListGroup.Item>
                     Users can create expenses that they want to share with other people in household  <br />
-                    Users can create household and invite other user to join the household  <br />
-                    Users have their own dashboard where they have list of bill payments they made and how much amount is due  <br />
+                </ListGroup.Item>
+		<ListGroup.Item>    
+	            Users can create household and invite other user to join the household  <br />
+                </ListGroup.Item>
+		<ListGroup.Item>    
+		    Users have their own dashboard where they have list of bill payments they made and how much amount is due  <br />
 
                 </ListGroup.Item>
             </ListGroup>

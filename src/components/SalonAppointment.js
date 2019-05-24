@@ -68,10 +68,15 @@ render() {
                 </ListGroup.Item>
                 <ListGroup.Item>
                     The application helps in scheduling appointments for the customers by the admin <br />
-                    Customers can check the available date for the appointment <br />
-                    Customers can book the appointment and check upcoming appointments <br />
-                    Customer can reschedule their appointment
-
+                </ListGroup.Item>
+		<ListGroup.Item>  
+		    Customers can check the available date for the appointment <br />
+                </ListGroup.Item>
+		<ListGroup.Item>   
+		    Customers can book the appointment and check upcoming appointments <br />
+                </ListGroup.Item>    
+		<ListGroup.Item>
+		     Customer can reschedule their appointment
                 </ListGroup.Item>
             </ListGroup>
             <ListGroup>
