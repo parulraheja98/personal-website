@@ -76,7 +76,7 @@ class Home extends Component {
               <h1> Parul Raheja </h1>
               <div> 
                 I am a technology enthusiast and full stack developer. <br />
-                I am always open in learning new technologies <br /> and believe in geting shit done. <br />
+                I am always open in learning new technologies <br /> 
                 
 
               </div>
