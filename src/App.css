@@ -55,9 +55,12 @@
     margin-left:5% !important;
     }
     a.nav-link {
-      margin-left: 5px !important;
+      margin-left: 10px !important;
       font-weight:700;
   }
+  .mr-sm-2.navbar-nav {
+    margin-right: 20px !important;
+}
 
   
   iframe {
@@ -102,7 +105,7 @@ img {
 a.nav-link {}
 
 a.nav-link {
-    color: black !important;
+    color: #1e90ff !important;
 }
 
 a.nav-link {
@@ -111,9 +114,17 @@ a.nav-link {
 }
 
 .mr-sm-2.navbar-nav {
-    margin-right: 84px !important;
+    margin-right: 84px;
 }
 
 nav.justify-content-end.navbar.navbar-expand.navbar-dark.bg-dark {
   background-color:aliceblue !important;
+}
+
+h1 {
+  color:#1e90ff !important;
+}
+
+.descEditContent {
+  font-weight:600;
 }

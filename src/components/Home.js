@@ -75,9 +75,9 @@ class Home extends Component {
           <div style={{height:'20%',marginTop:'5%'}}>
             <div className='description-edit content-main' style={{}}>
               <h1> Parul Raheja </h1>
-              <div> 
+              <div className='descEditContent'> 
                 I am a technology enthusiast and full stack developer. <br />
-                I am always open in learning new technologies <br /> 
+                I am always open in learning new technologies. <br /> 
                 
 
               </div>
