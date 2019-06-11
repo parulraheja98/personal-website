@@ -91,7 +91,7 @@ class Home extends Component {
                 borderRadius:'30%'
               }}
               className='description-edit'
-              id="headerImage"
+              id="headerImageProf"
             />
             </div>
           <br />

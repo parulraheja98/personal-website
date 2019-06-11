@@ -50,6 +50,9 @@
 }
 
   @media (max-width: 767px) {
+    .image-info {
+      margin-left:18% !important;
+    }
   .description-edit {
     width:350px !important;
     margin-left:5% !important;
@@ -89,7 +92,7 @@ margin-left:8%;
 
 .image-info {
   float:left;
-  margin-left:6%;
+  margin-left:5%;
   font-size:14px;
   color:grey;
 }
@@ -128,3 +131,29 @@ h1 {
 .descEditContent {
   font-weight:600;
 }
+
+h1.headerContent {
+}
+
+div#education {
+    margin-left: 8%;
+}
+
+h1.headerContent {}
+
+div#skills {
+    margin-left: 8%;
+}
+
+div#contact {
+    margin-left: 8%;
+}
+
+#projects {
+  margin-left: 8%;
+}
+img#headerImageProf {
+  margin-left: 25%;
+  margin-bottom:20px;
+}
+
