@@ -40,8 +40,8 @@
 }
 
 .headerContent {
-  background-color:aquamarine;
-  padding:20px;
+  color:dodgerblue;
+  
   border-radius:20px;
 }
 
@@ -50,10 +50,14 @@
 }
 
   @media (max-width: 767px) {
-    .description-edit {
-      width:350px !important;
-      margin-left:5% !important;
-      }
+  .description-edit {
+    width:350px !important;
+    margin-left:5% !important;
+    }
+    a.nav-link {
+      margin-left: 5px !important;
+      font-weight:700;
+  }
 
   
   iframe {
@@ -94,4 +98,22 @@ margin-left:8%;
 
 img {
   cursor: pointer;
+}
+a.nav-link {}
+
+a.nav-link {
+    color: black !important;
+}
+
+a.nav-link {
+    margin-left: 40px;
+    font-weight:700;
+}
+
+.mr-sm-2.navbar-nav {
+    margin-right: 84px !important;
+}
+
+nav.justify-content-end.navbar.navbar-expand.navbar-dark.bg-dark {
+  background-color:aliceblue !important;
 }

@@ -62,15 +62,16 @@ class Home extends Component {
 
     return (
       <div>
-        <Navbar bg="dark" variant="dark">
-          <Nav className="mr-auto">
-            <Nav.Link href="#projects">Project</Nav.Link>
+        
+        <Navbar bg="dark" variant="dark" className='justify-content-end'>
+          <Nav className="mr-sm-2">
+            <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#education">Education</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#contact">Contact </Nav.Link>
           </Nav>
         </Navbar>
-        <div className='main-header' style={{overflow:'hidden',backgroundColor:'antiquewhite'}}>
+        <div className='main-header' style={{overflow:'hidden',backgroundImage:"url('./headerImg.jpg')"}}>
           <div style={{height:'20%',marginTop:'5%'}}>
             <div className='description-edit content-main' style={{}}>
               <h1> Parul Raheja </h1>
@@ -82,12 +83,12 @@ class Home extends Component {
               </div>
             </div>
             <img
-              src="./personalimg.jpeg"
+              src="./personalpicture.jpg"
               style={{
                 height: "300px",
                 width:"300px",
                 display:'block',
-                borderRadius:'50%'
+                borderRadius:'30%'
               }}
               className='description-edit'
               id="headerImage"
@@ -109,8 +110,7 @@ class Home extends Component {
               style={{
                 height: "200px",
                 width:"200px",
-                display:'block',
-                borderRadius:'30%',
+                display:'block'
 
               }}
               onClick={this.handleHaircutApp}
@@ -131,8 +131,7 @@ class Home extends Component {
               style={{
                 height: "200px",
                 width:"200px",
-                display:'block',
-                borderRadius:'30%'
+                display:'block'
               }}
               onClick={this.handleExpenseApp}
               id="headerImage"
@@ -156,8 +155,7 @@ class Home extends Component {
               style={{
                 height: "200px",
                 width:"200px",
-                display:'block',
-                borderRadius:'30%'
+                display:'block'
               }}
               onClick={this.handleShoppingApp}
               id="headerImage"
@@ -175,8 +173,7 @@ class Home extends Component {
               style={{
                 height: "200px",
                 width:"200px",
-                display:'block',
-                borderRadius:'30%'
+                display:'block'
               }}
               onClick={this.handleChatApp}
               id="headerImage"
