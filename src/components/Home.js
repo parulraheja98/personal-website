@@ -78,6 +78,7 @@ class Home extends Component {
               <div className='descEditContent'> 
                 I am a technology enthusiast and full stack developer. <br />
                 I am always open in learning new technologies. <br /> 
+                Check out my <a href = "./Parul_Raheja_Resume.pdf" target = "_blank"> <u> Resume. </u> </a>
                 
 
               </div>
