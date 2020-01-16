@@ -34,7 +34,7 @@ render() {
             <ListGroup>
                 <ListGroup.Item>
                     <img
-                    src="./shoppingCart.PNG"
+                    src="./shoppingCart.png"
                     style={{
                         height: '100%',
                         width:'35%',
