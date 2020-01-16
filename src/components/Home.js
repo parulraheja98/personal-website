@@ -70,7 +70,7 @@ class Home extends Component {
           <ListGroup className='navBar'>
             <ListGroup.Item >
               <StyledListItem>
-                <HeaderContent> Projects </HeaderContent>
+                <HeaderContent id="projects"> Projects </HeaderContent>
               </StyledListItem>
             </ListGroup.Item>
 
@@ -79,7 +79,7 @@ class Home extends Component {
             <ListGroup className='navBar'>
               <ListGroup.Item>
                 <StyledListItem>
-                  <HeaderContent> Education </HeaderContent>
+                  <HeaderContent id="education"> Education </HeaderContent>
                   <div id="university">
                     {" "}
                     <h3><span className='uniTitle'>University of Winnipeg </span> <span class="year">
@@ -98,7 +98,7 @@ class Home extends Component {
                 style={{}}
               >
                 <StyledListItem>
-                  <HeaderContent> Skills </HeaderContent>
+                  <HeaderContent id="skills"> Skills </HeaderContent>
                   <h3>Programming Languages: </h3>
                   <div>Java, Node JS , C , C++ , PHP, Python<br /> </div>
                   <h3 className='skills-header'> Web/Scripting:</h3>
@@ -114,7 +114,7 @@ class Home extends Component {
 
               <ListGroup.Item style={{}}>
                 <StyledListItem>
-                  <HeaderContent> Contact Information </HeaderContent>
+                  <HeaderContent id="contact"> Contact Information </HeaderContent>
                   <SocialMediaIcons
                     icons={socialMediaIcons}
                     iconColor={'#495056'}
