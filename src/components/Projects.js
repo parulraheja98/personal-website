@@ -6,7 +6,7 @@ class Projects extends Component {
             <div class="row" style={{ margin: "25px" }}>
                 <div class="col-sm-6">
                     <Card>
-                        <Card.Img variant="top" src="expenseSharing.PNG" onClick={() => this.props.handleClick("expenseshare")} />
+                        <Card.Img variant="top" width="100%" height="100%" src="chatApp.PNG" onClick={() => this.props.handleClick("chatapp")} />
                     </Card>
                 </div>
                 <div class="col-sm-6">
@@ -16,7 +16,7 @@ class Projects extends Component {
                 </div>
                 <div class="col-sm-6">
                     <Card>
-                        <Card.Img variant="top" width="100%" height="100%" src="chatApp.PNG" onClick={() => this.props.handleClick("chatapp")} />
+                        <Card.Img variant="top" src="expenseSharing.PNG" onClick={() => this.props.handleClick("expenseshare")} />
                     </Card>
                 </div>
                 <div class="col-sm-6">
