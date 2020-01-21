@@ -3,12 +3,21 @@ import { CardColumns, Card } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const StyledImg = styled(Card.Img)`
-@media (max-width: 1200px) { 
-    width: 100% !important;
-  }
+    @media (max-width: 1200px) { 
+        width: 100% !important;
+    }
+
+    @media (max-width:1400px) and (min-width:1200px) {
+        width: 70% !important;
+    }
+      
+
+  @media (max-width:1600px) and (min-width:1401px) {
+    width: 60% !important;
+}
   
-  @media (max-width:2000px) and (min-width:1201px) {
-      width: 60% !important;
+  @media (max-width:2000px) and (min-width:1601px) {
+      width: 50% !important;
   }
   @media (max-width:3000px) and (min-width:2001px) {
       width: 40% !important;
