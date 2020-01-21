@@ -8,7 +8,7 @@ const StyledImg = styled(Card.Img)`
   }
   
   @media (max-width:2000px) and (min-width:1201px) {
-      width: 50% !important;
+      width: 60% !important;
   }
   @media (max-width:3000px) and (min-width:2001px) {
       width: 40% !important;

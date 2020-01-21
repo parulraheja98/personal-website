@@ -103,3 +103,52 @@ img#headerImageProf {
   border: none !important;
 }
 
+.imgEdit {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.projContainer-expense:hover .overlay {
+  opacity: 0.9;
+  background-color: #008CBA;
+}
+
+.projContainer-salon:hover .overlay {
+  opacity: 0.9;
+  background-color: green;
+}
+
+.projContainer-chat:hover .overlay {
+  opacity: 0.9;
+  background-color: yellowgreen;
+}
+
+.projContainer-shopping:hover .overlay {
+  opacity: 0.9;
+  background-color: #1E90FF;
+}
+
+.btnEdit {
+  color: black;
+  font-size: 20px;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
