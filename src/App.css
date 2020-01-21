@@ -141,6 +141,14 @@ img#headerImageProf {
   background-color: #1E90FF;
 }
 
+.fa-github-square:hover {
+  background-color: black;
+}
+
+.fa-linkedin:hover {
+  background-color: #0077b5;
+}
+
 .btnEdit {
   color: black;
   font-size: 20px;

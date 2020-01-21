@@ -121,7 +121,7 @@ class Home extends Component {
                     className='socialMedia'
                   />
 
-                  Email :- praheja@parulraheja.com
+                  Email : praheja@parulraheja.com
               </StyledListItem>
               </ListGroup.Item>
             </ListGroup>
