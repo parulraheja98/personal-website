@@ -17,6 +17,7 @@
     "styled-components": "^5.0.0"
   },
   "scripts": {
+    "aws-deploy": "yarn build && aws s3 cp ./build s3://parulraheja.com --recursive",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
