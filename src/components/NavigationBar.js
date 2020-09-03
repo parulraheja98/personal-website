@@ -1,49 +1,31 @@
-import React,{Component} from 'react';
-import {Nav,Navbar} from 'react-bootstrap';
-import '../App.css';
-import {withRouter,Redirect} from 'react-router-dom';
+import React, { Component } from "react";
+import { Nav, Navbar } from "react-bootstrap";
+import "../App.css";
+import { withRouter, Redirect } from "react-router-dom";
+import { MdKeyboardBackspace } from "react-icons/md";
 
 class NavigationBar extends Component {
-
-constructor(props) {
+  constructor(props) {
     super(props);
-   
-    this.state = {hour:''};
-    this.getHour = this.getHour.bind(this);
-    this.testchanges = this.testchanges.bind(this);
 
-}
+    this.state = {};
+  }
 
-componentDidMount() {
-    
+  componentDidMount() {}
 
-}
+  navigateHome() {
+    this.props.history.push("");
+  }
 
-
-
-
-getHour() {
-    var date = new Date();
-    var hour = date.getHours();
-    console.log('just check');
-    this.setState({hour});
-
-}
-
-render() {
-
+  render() {
     return (
-        
-        
-            
-        <>
-        </>
-
-    )
-
-
+      <>
+        <Navbar bg="info" variant="info">
+          <MdKeyboardBackspace style={{ cursor: "pointer" }} onClick={this.navigateHome.bind(this)} />
+        </Navbar>
+      </>
+    );
+  }
 }
 
-}
-
-export default NavigationBar;
+export default withRouter(NavigationBar);
