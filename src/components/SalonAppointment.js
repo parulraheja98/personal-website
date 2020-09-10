@@ -32,7 +32,7 @@ class SalonAppointment extends Component {
     return (
       <div className="salon-main">
         <div className="content-description">
-        <NavigationBar />
+          <NavigationBar />
           <ListGroup>
             <ListGroup.Item>
               <img
@@ -49,7 +49,7 @@ class SalonAppointment extends Component {
           </ListGroup>
           <ListGroup>
             <ListGroup.Item variant="info">
-              Motivation of this Project
+              <strong>Motivation of this Project</strong>
             </ListGroup.Item>
             <ListGroup.Item>
               Get More Experience Working with React JS and Express JS
@@ -75,7 +75,9 @@ class SalonAppointment extends Component {
             </ListGroup.Item>
           </ListGroup>
           <ListGroup>
-            <ListGroup.Item variant="info">Description</ListGroup.Item>
+            <ListGroup.Item variant="info">
+              <strong>Description</strong>
+            </ListGroup.Item>
             <ListGroup.Item>
               The application helps in scheduling appointments for the customers
               by the admin <br />

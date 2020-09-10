@@ -31,7 +31,7 @@ class ExpenseShare extends Component {
     return (
       <div className="salon-main">
         <div className="content-description">
-        <NavigationBar />
+          <NavigationBar />
           <ListGroup>
             <ListGroup.Item>
               <img
@@ -48,7 +48,7 @@ class ExpenseShare extends Component {
           </ListGroup>
           <ListGroup>
             <ListGroup.Item variant="info">
-              Motivation of this Project
+              <strong>Motivation of this Project</strong>
             </ListGroup.Item>
             <ListGroup.Item>
               {" "}
@@ -66,7 +66,9 @@ class ExpenseShare extends Component {
             </ListGroup.Item>
           </ListGroup>
           <ListGroup>
-            <ListGroup.Item variant="info">Video Description</ListGroup.Item>
+            <ListGroup.Item variant="info">
+              <strong>Video Description</strong>
+            </ListGroup.Item>
             <ListGroup.Item>
               <iframe
                 width="50%"
@@ -79,7 +81,9 @@ class ExpenseShare extends Component {
             </ListGroup.Item>
           </ListGroup>
           <ListGroup>
-            <ListGroup.Item variant="info">Description</ListGroup.Item>
+            <ListGroup.Item variant="info">
+              <strong>Description</strong>
+            </ListGroup.Item>
             <ListGroup.Item>
               Users can create expenses that they want to share with other
               people in household <br />

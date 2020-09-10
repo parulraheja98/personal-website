@@ -31,7 +31,7 @@ class ShoppingCart extends Component {
     return (
       <div className="salon-main">
         <div className="content-description">
-        <NavigationBar />
+          <NavigationBar />
           <ListGroup>
             <ListGroup.Item>
               <img
@@ -48,7 +48,7 @@ class ShoppingCart extends Component {
           </ListGroup>
           <ListGroup>
             <ListGroup.Item variant="info">
-              Motivation of this Project
+              <strong>Motivation of this Project</strong>
             </ListGroup.Item>
             <ListGroup.Item>
               Get more experience working with React Cookie and Express Session
@@ -59,7 +59,9 @@ class ShoppingCart extends Component {
             </ListGroup.Item>
           </ListGroup>
           <ListGroup>
-            <ListGroup.Item variant="info">Video Description</ListGroup.Item>
+            <ListGroup.Item variant="info">
+              <strong>Video Description</strong>
+            </ListGroup.Item>
             <ListGroup.Item>
               <iframe
                 width="50%"
@@ -72,7 +74,9 @@ class ShoppingCart extends Component {
             </ListGroup.Item>
           </ListGroup>
           <ListGroup>
-            <ListGroup.Item variant="info">Description</ListGroup.Item>
+            <ListGroup.Item variant="info">
+              <strong>Description</strong>
+            </ListGroup.Item>
             <ListGroup.Item>
               The application is intended for users who are interacting in
               ecommerce stores <br />

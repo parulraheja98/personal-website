@@ -57,7 +57,7 @@ class Home extends Component {
 
     return (
       <div>
-        <Navbar bg="dark" variant="dark" className="justify-content-end">
+        <Navbar className="justify-content-end">
           <Nav className="mr-sm-2">
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#education">Education</Nav.Link>

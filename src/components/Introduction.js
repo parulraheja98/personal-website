@@ -28,7 +28,7 @@ class Introduction extends Component {
     return (
       <div class="row" style={{ margin: "25px" }}>
         <div class="col-sm-6">
-          <Card className="no-border">
+          <Card className="no-border no-background">
             <Card.Body>
               <Card.Title>
                 {" "}
@@ -49,7 +49,7 @@ class Introduction extends Component {
           </Card>
         </div>
         <div class="col-sm-6">
-          <Card className="no-border">
+          <Card className="no-border no-background">
             <StyledImg
               style={{ "border-radius": "50%" }}
               className="profileImg"

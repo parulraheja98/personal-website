@@ -49,7 +49,7 @@ class ChatApplication extends Component {
           </ListGroup>
           <ListGroup>
             <ListGroup.Item variant="info">
-              Motivation of this Project
+              <strong>Motivation of this Project</strong>
             </ListGroup.Item>
             <ListGroup.Item>
               Get More Experience Working with Laravel Framework
@@ -61,7 +61,9 @@ class ChatApplication extends Component {
             <ListGroup.Item>Learn how asynchronous calls work </ListGroup.Item>
           </ListGroup>
           <ListGroup>
-            <ListGroup.Item variant="info">Video Description</ListGroup.Item>
+            <ListGroup.Item variant="info">
+              <strong>Video Description</strong>
+            </ListGroup.Item>
             <ListGroup.Item>
               <iframe
                 width="50%"
@@ -74,7 +76,9 @@ class ChatApplication extends Component {
             </ListGroup.Item>
           </ListGroup>
           <ListGroup>
-            <ListGroup.Item variant="info">Description</ListGroup.Item>
+            <ListGroup.Item variant="info">
+              <strong>Description</strong>
+            </ListGroup.Item>
             <ListGroup.Item>
               The application is intended for users who want to live chat with
               each other in Real Time <br />
