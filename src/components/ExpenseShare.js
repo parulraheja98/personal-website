@@ -33,20 +33,6 @@ class ExpenseShare extends Component {
         <div className="content-description">
           <NavigationBar />
           <ListGroup>
-            <ListGroup.Item>
-              <img
-                src="./expenseSharing.PNG"
-                style={{
-                  height: "100%",
-                  width: "35%",
-                  margin: "0px auto",
-                  display: "block",
-                }}
-                id="headerImage"
-              />
-            </ListGroup.Item>
-          </ListGroup>
-          <ListGroup>
             <ListGroup.Item variant="info">
               <strong>Motivation of this Project</strong>
             </ListGroup.Item>
