@@ -7,6 +7,7 @@ import "../App.css";
 import Introduction from "./Introduction.js";
 import styled from "styled-components";
 import { SocialIcon } from "react-social-icons";
+import Particles from "react-particles-js";
 
 const StyledListItem = styled.div`
   margin-left: 2% !important;
@@ -57,14 +58,6 @@ class Home extends Component {
 
     return (
       <div>
-        <Navbar className="justify-content-end">
-          <Nav className="mr-sm-2">
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#education">Education</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#contact">Contact </Nav.Link>
-          </Nav>
-        </Navbar>
         <Introduction />
         <div id="contentForInterest">
           <ListGroup className="navBar">
@@ -76,7 +69,7 @@ class Home extends Component {
 
             <Projects handleClick={this.handleClickEvt} />
 
-            <ListGroup className="navBar">
+            <ListGroup className="navBar" style={{ background: "black" }}>
               <ListGroup.Item>
                 <StyledListItem>
                   <HeaderContent id="education"> Education </HeaderContent>

@@ -155,21 +155,25 @@ img#headerImageProf {
 }
 
 .card {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  background: black;
 }
 
 .row {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  background: black;
 }
 
 body {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  background: black;
 }
 
 .list-group-item {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  background: black;
 }
 
 .no-background {
   background: none !important;
+}
+
+#tsparticles {
+  height: 100%;
 }

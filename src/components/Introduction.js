@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { CardColumns, Card } from "react-bootstrap";
 import styled from "styled-components";
+import Particles from "react-particles-js";
+import { Navbar, Nav, ListGroup, Button } from "react-bootstrap";
+import { SocialIcon } from "react-social-icons";
 
 const StyledImg = styled(Card.Img)`
   @media (max-width: 1200px) {
@@ -26,39 +29,37 @@ const StyledImg = styled(Card.Img)`
 class Introduction extends Component {
   render() {
     return (
-      <div class="row" style={{ margin: "25px" }}>
-        <div class="col-sm-6">
-          <Card className="no-border no-background">
-            <Card.Body>
-              <Card.Title>
-                {" "}
-                <h1 style={{ color: "#1e90ff" }}> Parul Raheja </h1>
-              </Card.Title>
-              <Card.Text>
-                <div className="descEditContent">
-                  I am a technology enthusiast and full stack developer. <br />
-                  I am always open in learning new technologies. <br />
-                  Check out my{" "}
-                  <a href="./Parul_Raheja_Resume.pdf" target="_blank">
-                    {" "}
-                    <u> Resume. </u>{" "}
-                  </a>
-                </div>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-        <div class="col-sm-6">
-          <Card className="no-border no-background">
-            <StyledImg
+      <div
+        style={{
+          backgroundColor: "#000000",
+          backgroundImage: "linear-gradient(147deg, #000000 0%, #434343 74%)",
+          color: "white",
+        }}
+      >
+        <Navbar className="justify-content-end">
+          <Nav className="mr-sm-2">
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#education">Education</Nav.Link>
+            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#contact">Contact </Nav.Link>
+          </Nav>
+        </Navbar>
+        <div>
+          <div style={{ textAlign: "center" }}>
+            <img
               style={{ "border-radius": "50%" }}
               className="profileImg"
               variant="top"
-              height="400px"
+              height="350px"
+              width="350px"
               src="personalpicture.jpg"
-              onClick={() => this.props.handleClick("shoppingcart")}
             />
-          </Card>
+            <div style={{ fontSize: "32px" }}>
+              Hi!, I'm Parul. I am a full stack developer and open source
+              enthusiast. <br /> In my free time I enjoy hiking and learning new
+              technologies.
+            </div>
+          </div>
         </div>
       </div>
     );

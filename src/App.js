@@ -10,6 +10,7 @@ import SalonAppointment from "./components/SalonAppointment";
 import ChatApplication from "./components/ChatApplication";
 import ExpenseShare from "./components/ExpenseShare";
 import ShoppingCart from "./components/ShoppingCart";
+import Particles from "react-particles-js";
 
 class App extends Component {
   constructor(props) {
@@ -19,21 +20,23 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
-        <div>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route
-              exact
-              path="/salonappointment"
-              component={SalonAppointment}
-            />
-            <Route exact path="/chatapp" component={ChatApplication} />
-            <Route exact path="/shoppingcart" component={ShoppingCart} />
-            <Route exact path="/expenseshare" component={ExpenseShare} />
-          </Switch>
-        </div>
-      </BrowserRouter>
+      <div>
+        <BrowserRouter>
+          <div>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route
+                exact
+                path="/salonappointment"
+                component={SalonAppointment}
+              />
+              <Route exact path="/chatapp" component={ChatApplication} />
+              <Route exact path="/shoppingcart" component={ShoppingCart} />
+              <Route exact path="/expenseshare" component={ExpenseShare} />
+            </Switch>
+          </div>
+        </BrowserRouter>
+      </div>
     );
   }
 }
