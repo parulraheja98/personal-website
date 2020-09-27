@@ -50,11 +50,12 @@ class Introduction extends Component {
         </div>
         <div class="col-sm-6">
           <Card className="no-border no-background">
-            <StyledImg
+            <img
               style={{ "border-radius": "50%" }}
               className="profileImg"
               variant="top"
-              height="400px"
+              height="350px"
+              width="350px"
               src="personalpicture.jpg"
               onClick={() => this.props.handleClick("shoppingcart")}
             />

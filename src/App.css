@@ -154,22 +154,10 @@ img#headerImageProf {
   text-align: center;
 }
 
-.card {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-}
-
-.row {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+.no-background {
+  background: none !important;
 }
 
 body {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-}
-
-.list-group-item {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-}
-
-.no-background {
-  background: none !important;
+  background-color: rgb(250, 250, 251) !important;
 }
